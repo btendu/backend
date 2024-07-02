@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && webpack --mode production && cp -r src/assets dist/"
+    "build": "webpack --mode production && cp -r src/assets dist/"
   },
   "author": "",
   "license": "ISC",
